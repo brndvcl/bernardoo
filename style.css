@@ -3,25 +3,33 @@ body{
 }
 h1{
     color: blue;
+    font-style: italic;
 }
 h2{
     color: aquamarine;
+    font-style: italic;
 }
 h3{
     color: chartreuse;
+    font-style: italic;
 }
 h4{
     color: crimson;
+    font-style: italic;
 }
 h4{
     color: darkslategrey;
+    font-style: italic;
 }
 h5{
     color: fuchsia;
+    font-style: italic;
 }
 h6{
     color: gold;
+    font-style: italic;
 }
 h7{
     color: lime;
+    font-style: italic;
 }
