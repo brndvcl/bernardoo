@@ -1,5 +1,6 @@
 body{
     background-color: white;
+     text-align: center;
 }
 h1{
     color: blue;
@@ -35,10 +36,20 @@ h7{
 }
 .RUABELTERRA291{
 width: 10%;
+ text-align: center;
 }
 .SANTOAMARO{
     width: 70%;
+ text-align: center;
 }
 .CAVEIRA{
     width: 50%;
+     text-align: center;
+}
+
+.lista {
+    text-align: left;
+    font-style: italic;
+    text-decoration: overline;
+    color: rgb(0, 255, 76);
 }
