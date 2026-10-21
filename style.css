@@ -54,6 +54,150 @@ width: 10%;
     color: rgb(0, 255, 76);
 }
 
+<h3 id="biografia">Quem foi Yuri22?</h3>
+/* FUNDO GERAL */
+body {
+    margin: 0;
+    background: #08090d;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BANNER PRINCIPAL */
+.hero-yuri {
+    min-height: 480px;
+    padding: 25px 8%;
+    background:
+        radial-gradient(
+            circle at 80% 40%,
+            rgba(255, 0, 40, 0.22),
+            transparent 40%
+        ),
+        linear-gradient(135deg, #08090d, #171018);
+
+    border-bottom: 2px solid #ff1738;
+    box-shadow: 0 8px 30px rgba(255, 0, 40, 0.12);
+}
+
+/* MENU */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #29202a;
+    padding-bottom: 15px;
+}
+
+.logo {
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.logo span,
+.hero-content h1 span {
+    color: #ff1738;
+    text-shadow: 0 0 15px rgba(255, 23, 56, 0.7);
+}
+
+.nav-live {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ff1738;
+    padding: 12px 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.nav-live:hover {
+    background: #ff1738;
+    box-shadow: 0 0 20px #ff1738;
+}
+
+/* TEXTO PRINCIPAL */
+.hero-content {
+    max-width: 700px;
+    padding: 75px 0;
+}
+
+.subtitulo {
+    color: #ff4058;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hero-content h1 {
+    font-size: clamp(35px, 6vw, 65px);
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.hero-content p:not(.subtitulo) {
+    color: #b8b8c5;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* BOTÃO NEON */
+.btn-neon {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background: #ff1738;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-neon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 12px #ff1738,
+                0 0 30px rgba(255, 23, 56, 0.6);
+}
+
+/* CONTEÚDO DO SITE */
+h3, h4, h5, h6 {
+    color: #ff304b;
+    text-shadow: 0 0 10px rgba(255, 23, 56, 0.25);
+}
+
+body > p {
+    line-height: 1.8;
+    color: #d0d0d8;
+    padding: 0 5%;
+}
+
+/* IMAGENS */
+body img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #39202a;
+    box-shadow: 0 0 18px rgba(255, 23, 56, 0.12);
+}
+
+/* CELULARES */
+@media (max-width: 600px) {
+    .hero-yuri {
+        padding: 20px 6%;
+    }
+
+    .hero-content {
+        padding: 55px 0;
+    }
+
+    .navbar .logo {
+        font-size: 22px;
+    }
+
+    .nav-live {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
 .live-yuri {
     max-width: 950px;
     margin: 50px auto;
